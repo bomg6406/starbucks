@@ -1,0 +1,69 @@
+.container {
+  background-color: bisque;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* flex-direction : 방향 */
+/* flex-wrap : 묶음, 줄 바꿈 처리 */
+/* justify-content : 주 축의 정렬 방법 
+   flex-start 시작점
+   flex-ent 끝점 
+   flex-center 가운데*/
+
+/* align-content : 수직 정렬
+   stretch : 시작점 정렬
+   flex-start 시작점
+   flex-ent 끝점 
+   flex-center 가운데*/
+
+/* align-items : 수직 한줄 정렬
+   stretch : 시작점 정렬
+   flex-start 시작점
+   flex-ent 끝점 
+   flex-center 가운데*/
+
+/* flex-grow : 비율 */
+/* flex-shrink : 감소 너비 비율 */
+/* flex-basis : 공간 배분 전 기본 너비 */
+/* order : 순서 */
+
+.container .item {
+
+  width: 100px;
+  height: 100px;
+  border: dashed 4px blue;
+  background-color: aqua;
+  flex-wrap: wrap;
+}
+
+/* transition : 전환 효과를 지정하는 단축 속성
+  transition-property 속성명
+  transition-duration 지속시간
+  transition-timing-function : 타이밍 함수
+  transition-delay 대기시간*/
+/* easing function 사이트 */
+
+/* 2D 변환함수 */
+/* translate(x,y) 이동(x축, y축)
+   translateX(x) 이동(x축)
+   translateY(y) 이동(y축) 
+   scale (x,y) 크기(x축, y축)
+   rotate(degree) 회전(각도)
+   skewX(x) 기울임(x축)
+   skewY(y)  기울임(y축)*/
+/* 3D 변환 함수 */
+/* perspective(n) 원근법(거리)
+   rotateX(x) 회전(x축)
+   rotateX(y) 회전(y축)*/
+
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition: 1s;
+}
+
+.a:active {
+  width: 300px;
+}

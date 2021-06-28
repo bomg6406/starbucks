@@ -1,0 +1,15 @@
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(170, 176, 184, 0.531);
+  margin: 10px;
+  padding: 10px;
+  border: solid black 10px;
+  /* border-radius: 40px; */
+  box-sizing: border-box;
+}
+
+/* margin 외부 여백 */
+/* padding 내부 여백 */
+/* border 외부 내부 사이 선 */
+/* border - box 자동 계산 */

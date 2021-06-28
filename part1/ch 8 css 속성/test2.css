@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+}
+
+.parent {
+  width: 320px;
+  height: 200px;
+  background-color: royalblue;
+}
+
+/* 단위 em = px * font-size */
+/* 단위 vw = 화면의 비율 */
+.child {
+  width: 50vw;
+  height: 50%;
+  background-color: saddlebrown;
+}

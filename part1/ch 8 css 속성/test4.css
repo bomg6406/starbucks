@@ -1,0 +1,53 @@
+body {
+  height: 3000px;
+}
+
+.parent {
+  width: 200px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: 20px;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  overflow: auto;
+}
+
+.child {
+  width: 300px;
+  height: 100px;
+  background-color: bisque;
+}
+
+span {
+  display: block;
+  width: 120px;
+  height: 100px;
+  background-color: aquamarine;
+  /* 투명도 */
+  opacity: 0.5;
+  /* 들여쓰기  */
+  text-indent: 10px;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  /* 배경 이미지 삽입 */
+  background-image: url(./r.jpeg);
+  /* 이미지 사이즈 */
+  /* background-size: 100px; */
+  /* background-size: 50px; */
+  background-position: center;
+  background-color: aqua;
+  /* 배경 이미지 반복 */
+  /* repeat-x , repeat-y */
+  background-repeat: no-repeat;
+  /* cover : 가로 넓이 contain : 세로 넓이  */
+  /* background-size: cover; */
+  /* 배경 이미지 스크롤 특성 */
+  background-attachment: fixed;
+
+
+
+
+}

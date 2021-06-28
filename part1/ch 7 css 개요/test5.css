@@ -1,0 +1,29 @@
+/* 99999999 */
+div {
+  color: red !important;
+}
+
+/* 100 */
+#color_yellow {
+  color: yellow;
+}
+
+/* 10 */
+.color_green {
+  color: green;
+}
+
+/* 1 */
+div {
+  color: blue;
+}
+
+/* 0 */
+* {
+  color: darkblue;
+}
+
+/* X */
+body {
+  color: violet;
+}

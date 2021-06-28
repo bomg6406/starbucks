@@ -1,0 +1,29 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+/* 가상 요소 선택자  ABC::before*/
+/* ABC 요소의 내부 앞에 내용을 삽입 */
+/* inline 요소이다 */
+.box::before {
+  content: "앞!";
+}
+
+/* 가상 요소 선택자  ABC::after*/
+/* ABC 요소의 내부 뒤에 내용을 삽입 */
+
+.box::after {
+  content: "뒤!";
+}
+
+/* 속성 선택자 */
+
+[disabled] {
+  color: bisque;
+}
+
+/* [type]{
+  color: aqua;
+} */

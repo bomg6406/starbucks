@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+}
+
+span {
+  background-color: tomato;
+}
+
+div {
+  /* max - width  / min - width  */
+  /* max - heigth  / min - heigth  */
+  max-width: 50px;
+  min-height: 200px;
+}

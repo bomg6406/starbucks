@@ -1,0 +1,30 @@
+/* 일치 선택자 ABCXYZ */
+/* 선택자 동시만족하는 요소  */
+span.orange {
+  color: orange;
+}
+
+/* 자식 선택자 ABC>XYZ */
+/* 선태자 abc의 자식 요소 xyz 선택 */
+/* ul의 자식요소 li class orange 가 변함 */
+ul>.orange {
+  color: aqua;
+}
+
+/* 하위(후손) 선택자 ABC XYZ  */
+/* 2단계 아래도 사용가능  */
+div .orange {
+  color: blue;
+}
+
+/* 인접 형제 선택자 ABC + XYZ */
+/* ABC 다음요소 변함 */
+.orange+li {
+  color: blueviolet;
+}
+
+/* 일반 형제 선택자 ABC ~ XYZ */
+/* ABC 다음요소 모두 변경 */
+.orange~li {
+  color: chartreuse;
+}

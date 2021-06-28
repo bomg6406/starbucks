@@ -1,0 +1,37 @@
+/* postion 요소의 위치 지정 기준 */
+/*  static : 기준 없음
+    relative : 요소 자신을 기준
+    absolute : 위치 상 부모 요소를 기준
+    fixed : 뷰포트를 기준*/
+.container {
+  width: 300px;
+  background-color: bisque;
+
+}
+
+.container .item {
+  border: 4px blue dashed;
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+}
+
+.container .item:nth-child(1) {
+  position: relative;
+  /* width: 100px;  height: 100px; */
+}
+
+.container .item:nth-child(2) {
+  /* width: 140px;  height: 70px; */
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  /* bottom: 30px;+right: 50px; */
+}
+
+.container .item:nth-child(3) {
+  /* width: 70px;  height: 120px; */
+  position: fixed;
+  z-index: 1;
+}

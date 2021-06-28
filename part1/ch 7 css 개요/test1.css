@@ -1,0 +1,12 @@
+/* 클래스 사용 */
+/* .클래스 이름 {}*/
+
+.orange {
+  color: orange;
+}
+
+/* id 사용  id는 하나만 사용가능 */
+/* #id name{}  */
+#apple {
+  color: red;
+}
