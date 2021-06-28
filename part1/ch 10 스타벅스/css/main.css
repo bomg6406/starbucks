@@ -145,6 +145,7 @@ header .main-menu .item:hover .item__name {
 header .main-menu .item .item__contents {
   width: 100%;
   position: fixed;
+  
 }
 
 header .main-menu .item .item__contents .item__contents__menu {
